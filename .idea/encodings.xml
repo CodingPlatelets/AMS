@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/code/card_file.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/card_file.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/card_service.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/card_service.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/list.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/list.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/login_log.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/login_log.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/login_log_file.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/login_log_file.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/menu.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/menu.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/other_log.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/other_log.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/other_log_file.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/other_log_file.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/search_file.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/search_file.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/tool.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code/tool.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/card_file.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/card_file.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/card_service.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/card_service.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/list.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/list.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/login_log.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/login_log.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/login_log_file.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/login_log_file.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/main.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/main.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/other_log.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/other_log.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/other_log_file.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/other_log_file.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/search_file.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/search_file.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/tool.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/header/tool.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login_log_info.txt" charset="GBK" />
+  </component>
+</project>
