@@ -1,0 +1,154 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../header/card_file.h
+main.h
+../header/main.h
+
+../header/card_service.h
+header/main.h
+../header/header/main.h
+
+../header/list.h
+main.h
+../header/main.h
+
+../header/login_log.h
+time.h
+-
+main.h
+../header/main.h
+
+../header/login_log_file.h
+main.h
+../header/main.h
+
+../header/main.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+string.h
+-
+
+../header/menu.h
+
+../header/other_log.h
+time.h
+-
+main.h
+../header/main.h
+
+../header/other_log_file.h
+main.h
+../header/main.h
+
+../header/search_file.h
+
+../header/tool.h
+time.h
+-
+main.h
+../header/main.h
+
+D:/Clion Complier/Asm/code/card_file.c
+header/card_file.h
+D:/Clion Complier/Asm/code/header/card_file.h
+stdlib.h
+-
+
+D:/Clion Complier/Asm/code/card_service.c
+header/card_service.h
+D:/Clion Complier/Asm/code/header/card_service.h
+header/list.h
+D:/Clion Complier/Asm/code/header/list.h
+string.h
+-
+
+D:/Clion Complier/Asm/code/list.c
+header/list.h
+D:/Clion Complier/Asm/code/header/list.h
+stdio.h
+-
+time.h
+-
+
+D:/Clion Complier/Asm/code/login_log.c
+header/login_log.h
+D:/Clion Complier/Asm/code/header/login_log.h
+header/login_log_file.h
+D:/Clion Complier/Asm/code/header/login_log_file.h
+
+D:/Clion Complier/Asm/code/login_log_file.c
+header/login_log_file.h
+D:/Clion Complier/Asm/code/header/login_log_file.h
+
+D:/Clion Complier/Asm/code/main.c
+header/menu.h
+-
+header/login_log.h
+-
+header/card_service.h
+-
+header/other_log.h
+-
+header/card_file.h
+-
+header/login_log_file.h
+-
+header/other_log_file.h
+-
+
+D:/Clion Complier/Asm/code/menu.c
+header/menu.h
+D:/Clion Complier/Asm/code/header/menu.h
+header/main.h
+D:/Clion Complier/Asm/code/header/main.h
+header/card_service.h
+D:/Clion Complier/Asm/code/header/card_service.h
+header/card_file.h
+D:/Clion Complier/Asm/code/header/card_file.h
+header/list.h
+D:/Clion Complier/Asm/code/header/list.h
+header/other_log.h
+D:/Clion Complier/Asm/code/header/other_log.h
+header/login_log.h
+D:/Clion Complier/Asm/code/header/login_log.h
+header/search_file.h
+D:/Clion Complier/Asm/code/header/search_file.h
+
+D:/Clion Complier/Asm/code/other_log.c
+header/other_log.h
+D:/Clion Complier/Asm/code/header/other_log.h
+header/other_log_file.h
+D:/Clion Complier/Asm/code/header/other_log_file.h
+
+D:/Clion Complier/Asm/code/other_log_file.c
+header/other_log_file.h
+D:/Clion Complier/Asm/code/header/other_log_file.h
+
+D:/Clion Complier/Asm/code/search_file.c
+header/search_file.h
+D:/Clion Complier/Asm/code/header/search_file.h
+header/main.h
+D:/Clion Complier/Asm/code/header/main.h
+header/card_service.h
+D:/Clion Complier/Asm/code/header/card_service.h
+header/other_log.h
+D:/Clion Complier/Asm/code/header/other_log.h
+
+D:/Clion Complier/Asm/code/tool.c
+time.h
+-
+header/tool.h
+D:/Clion Complier/Asm/code/header/tool.h
+
