@@ -20,34 +20,34 @@ int main() {
     do {
         outputMenu();
         switch ( opt ) {
-            case 1:
+            case '1':
                 addCard();
                 break;
-            case 2:
+            case '2':
                 printCard();
                 break;
-            case 3:
+            case '3':
                 useComputer();
                 break;
-            case 4:
+            case '4':
                 exitComputer();
                 break;
-            case 5:
-                topUp();
+            case '5':
+                charge();
                 break;
-            case 6:
+            case '6':
                 withdraw();
                 break;
-            case 7:
+            case '7':
                 searchAll();
                 break;
-            case 8:
+            case '8':
                 exitCard();
                 break;
-            case 9:
+            case '9':
                 changePwd();
                 break;
-            case 0:
+            case '0':
                 updateSaveAll();
                 updateLog();
                 updateOptLog();

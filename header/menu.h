@@ -10,7 +10,7 @@ void useComputer();
 
 void exitComputer();
 
-void topUp();
+void charge();
 
 void withdraw();
 

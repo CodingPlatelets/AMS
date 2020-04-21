@@ -6,9 +6,12 @@
 #include "header/other_log.h"
 #include "header/login_log.h"
 #include "header/search_file.h"
+#include <string.h>
+#include <stdlib.h>
+#define MAX 2
 
 void outputMenu() {
-
+    char * ch = (char*)malloc(sizeof(char)*MAXCARDNUMBER);
     printf("----------菜单----------\n");
     printf("1:添加卡\n");
     printf("2:查询卡\n");
@@ -21,7 +24,17 @@ void outputMenu() {
     printf("9:修改卡密码\n");
     printf("0:退出系统\n");
     printf("请选择菜单项编号：");
-    scanf("%d", &opt);
+    // gets(ch);
+    scanf("%s",ch);
+    while(strlen(ch) >= MAX || !(ch[0] >= '0' && ch[0] <='9') ){
+        free(ch);
+        ch = (char*)malloc(sizeof(char)*100);
+        printf("错误输入！请重新输入: \n");
+        // gets(ch);
+        scanf("%s",ch);
+    }
+    // scanf("%1d", &opt);
+    opt = (int)ch[0];
 }
 
 //添加卡
@@ -149,7 +162,7 @@ void exitComputer() {
                 money = (second / 3600 + !(!(second % 3600))) * price; //计算费用，不足一个小时按一个小时算
                 p->fTotalUse += money;
                 printf("花费了%.2lf元。\n", money);
-                while ( 1 ) {
+                while ( true ) {
                     balance = p->fBalance - money;        //计算卡余额减去此次费用的余额
                     if ( balance >= 0 ) {                //判断余额是否足够
                         p->fBalance = balance;        //若余额足够，下机成功，修改余额
@@ -159,9 +172,8 @@ void exitComputer() {
                         addLogToList(p, 1, time(NULL));
                         break;
                     } else {
-                        //printf("花费了%.2lf元。\n", money);
                         printf("余额不足，请充值%.2lf元。\n", money - (p->fBalance));
-                        topUp();
+                        charge();
                     }
                 }
             } else {
@@ -178,7 +190,7 @@ void exitComputer() {
 }
 
 //充值
-void topUp() {
+void charge() {
     char name[18];
     char pwd[8];
     float money;
@@ -337,24 +349,27 @@ void changePwd() {
     scanf("%s", name);
 
     if ( queryCard(name)) {//判断想要添加的卡号是否已经存在
-        printf("请输入原始密码<长度为1~8>：");
-        scanf("%s", pwd);
-        while ( strcmp(queryCard(name)->aPwd, pwd) != 0 ) {
-            free(pwd);
-            printf("密码不正确!\n");
-            printf("请重新输入!\n");
-            pwd = ( char * ) malloc(sizeof(char) * 8);
-            printf("请输入原密码<长度为1~8>：");
+        if ( queryCard(name)->nStatus != 2 ) {
+            printf("请输入原始密码<长度为1~8>：");
             scanf("%s", pwd);
-            // gets(pwd);
+            while ( strcmp(queryCard(name)->aPwd, pwd) != 0 ) {
+                free(pwd);
+                printf("密码不正确!\n");
+                printf("请重新输入!\n");
+                pwd = ( char * ) malloc(sizeof(char) * 8);
+                printf("请输入原密码<长度为1~8>：");
+                scanf("%s", pwd);
+            }
+            printf("请输入新的密码:");
+            // gets(newPwd);
+            scanf("%s", newPwd);
+            strcpy(queryCard(name)->aPwd, newPwd);
+            printf("修改成功！\n");
+        } else {
+            printf("该卡已被注销！\n");
         }
-        printf("请输入新的密码:");
-        // gets(newPwd);
-        scanf("%s", newPwd);
-        strcpy(queryCard(name)->aPwd, newPwd);
-        printf("修改成功！\n");
     } else {
-        printf("该卡尚未注册");
+        printf("该卡尚未注册! \n");
 
     }
 }
