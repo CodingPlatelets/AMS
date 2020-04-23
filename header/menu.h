@@ -1,5 +1,7 @@
 #pragma once
 
+void code();
+
 void outputMenu();
 
 void addCard();

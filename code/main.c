@@ -8,14 +8,14 @@
 
 
 int main() {
+    printf("欢迎使用计费管理系统\n");
+    code();
+
     int flag;
     //初始化链表
     initOptLog();
     initLoginLog();
     initCardList();
-
-
-    printf("欢迎使用计费管理系统\n");
 
     do {
         outputMenu();

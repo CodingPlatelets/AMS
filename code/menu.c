@@ -11,6 +11,21 @@
 #include <time.h>
 #define MAX 2
 
+
+void code(){
+    // char pwd[8] = {0};
+    char *pwd = (char*)malloc(sizeof(char)*8);
+    printf("请输入密码：");
+    scanf("%s",pwd);
+    while(strcmp(pwd,"huangwenkan")!=0){
+        free(pwd);
+        pwd = (char*)malloc(sizeof(char)*8);
+        printf("密码错误，请重新输入: ");
+        scanf("%s",pwd);
+    }
+        printf("欢迎光临！\n");
+
+}
 void outputMenu() {
     char * ch = (char*)malloc(sizeof(char)*MAXCARDNUMBER);
     printf("----------菜单----------\n");
@@ -23,6 +38,7 @@ void outputMenu() {
     printf("7:查询统计\n");
     printf("8:注销\n");
     printf("9:修改卡密码\n");
+    printf("r:重注册\n");
     printf("0:退出系统\n");
     printf("请选择菜单项编号：");
     // gets(ch);
