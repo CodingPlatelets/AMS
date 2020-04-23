@@ -12,19 +12,35 @@
 #define MAX 2
 
 
-void code(){
-    // char pwd[8] = {0};
+int code(){
     char *pwd = (char*)malloc(sizeof(char)*8);
     printf("请输入密码：");
     scanf("%s",pwd);
+    int flag = 0;
+    // int cnt = 0;
     while(strcmp(pwd,"huangwenkan")!=0){
         free(pwd);
         pwd = (char*)malloc(sizeof(char)*8);
-        printf("密码错误，请重新输入: ");
-        scanf("%s",pwd);
+        char choose[MAX] = "NO";
+        printf("密码错误，是否继续输入？<'YES'or'NO'>:");
+        scanf("%s",choose);
+        if(/*choose != 'Y'*/strcmp("YES",choose)){
+            printf("输入结束，退出系统");
+            flag = 1;
+            // cnt ++;
+            break;
+        }else {
+            printf("请重新输入密码:");
+            scanf("%s", pwd);
+        }
     }
+    // printf("%d",cnt);
+    if(flag == 1){
+        return 0;
+    }else {
         printf("欢迎光临！\n");
-
+        return 1;
+    }
 }
 void outputMenu() {
     char * ch = (char*)malloc(sizeof(char)*MAXCARDNUMBER);

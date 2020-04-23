@@ -1,6 +1,6 @@
 #pragma once
 
-void code();
+int code();
 
 void outputMenu();
 

@@ -9,7 +9,11 @@
 
 int main() {
     printf("欢迎使用计费管理系统\n");
-    code();
+    int co = 0;
+    co = code();
+    if(co != 1){
+        return 0;
+    }
 
     int flag;
     //初始化链表

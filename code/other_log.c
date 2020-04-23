@@ -54,7 +54,7 @@ void addOptLogToList(Card *card, int opt, time_t time, int money, int pre_money,
         p = p->next;
     }
 
-    p->next = insert;            //将原链表的尾节点指向要扎入的节点
+    p->next = insert;            //将原链表的尾节点指向要插入的节点
     insert->card = card;
     insert->opt = opt;
     insert->money = money;
