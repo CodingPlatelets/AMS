@@ -47,6 +47,9 @@ int main() {
             case '9':
                 changePwd();
                 break;
+            case 'r':
+                reset();
+                break;
             case '0':
                 updateSaveAll();
                 updateLog();

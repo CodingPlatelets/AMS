@@ -1,10 +1,6 @@
 #include <time.h>
 #include "header/tool.h"
 
-//格式化时间戳
-time_t stringToTime(char *s) {
-
-}
 
 //格式化输出卡信息
 void printCardInfo(const Card *res) {

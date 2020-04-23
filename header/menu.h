@@ -20,3 +20,5 @@ void exitCard();
 
 void changePwd();
 
+void reset();
+

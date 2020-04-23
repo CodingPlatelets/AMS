@@ -8,6 +8,7 @@
 #include "header/search_file.h"
 #include <string.h>
 #include <stdlib.h>
+#include <time.h>
 #define MAX 2
 
 void outputMenu() {
@@ -26,9 +27,9 @@ void outputMenu() {
     printf("请选择菜单项编号：");
     // gets(ch);
     scanf("%s",ch);
-    while(strlen(ch) >= MAX || !(ch[0] >= '0' && ch[0] <='9') ){
+    while(strlen(ch) >= MAX || !((ch[0] >= '0' && ch[0] <='9') || ch[0] == 'r') ){
         free(ch);
-        ch = (char*)malloc(sizeof(char)*100);
+        ch = (char*)malloc(sizeof(char)*MAXCARDNUMBER);
         printf("错误输入！请重新输入: \n");
         // gets(ch);
         scanf("%s",ch);
@@ -371,5 +372,27 @@ void changePwd() {
     } else {
         printf("该卡尚未注册! \n");
 
+    }
+}
+
+void reset(){
+    char name[18];
+    char *pwd = ( char * ) malloc(sizeof(char) * 8);
+    // char pwd[8];
+    char newPwd[8];
+    printf("----------重注册----------\n");
+    printf("请输入卡号<长度为1~18>：");
+    scanf("%s", name);
+    if(queryCard(name)){
+        queryCard(name)->nStatus = 0;
+        printf("请输入新的密码<长度为1~8>： ");
+        scanf("%s",newPwd);
+        strcpy(queryCard(name)->aPwd, newPwd);
+        printf("重注册卡成功！\n");
+        printf("重注册时间为：");
+        time_t currentTm = time(NULL);
+        puts(asctime(localtime(&currentTm)));
+    }else{
+        printf("卡不存在！\n");
     }
 }
