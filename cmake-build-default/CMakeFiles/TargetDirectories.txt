@@ -1,0 +1,3 @@
+D:/Clion Complier/Asm/cmake-build-default/CMakeFiles/edit_cache.dir
+D:/Clion Complier/Asm/cmake-build-default/CMakeFiles/Asm.dir
+D:/Clion Complier/Asm/cmake-build-default/CMakeFiles/rebuild_cache.dir

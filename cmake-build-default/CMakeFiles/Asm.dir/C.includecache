@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../header/main.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+string.h
+-
+
+../header/other_log.h
+time.h
+-
+main.h
+../header/main.h
+
+../header/other_log_file.h
+main.h
+../header/main.h
+
+D:/Clion Complier/Asm/code/other_log.c
+header/other_log.h
+D:/Clion Complier/Asm/code/header/other_log.h
+header/other_log_file.h
+D:/Clion Complier/Asm/code/header/other_log_file.h
+

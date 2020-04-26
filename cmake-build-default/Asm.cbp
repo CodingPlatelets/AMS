@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Asm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Clion Complier/Asm/cmake-build-default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Clion Complier/Asm/cmake-build-default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Asm">
+				<Option output="D:/Clion Complier/Asm/cmake-build-default/Asm.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion Complier/Asm/cmake-build-default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Clion Complier/Asm/."/>
+					<Add directory="D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 Asm"/>
+					<CompileFile command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Asm/fast">
+				<Option output="D:/Clion Complier/Asm/cmake-build-default/Asm.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion Complier/Asm/cmake-build-default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Clion Complier/Asm/."/>
+					<Add directory="D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 Asm/fast"/>
+					<CompileFile command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Clion Complier/Asm/cmake-build-default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Min GW w64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion Complier/Asm/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Clion Complier/Asm/code/card_file.c">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/code/card_service.c">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/code/list.c">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/code/login_log.c">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/code/login_log_file.c">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/code/main.c">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/code/menu.c">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/code/other_log.c">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/code/other_log_file.c">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/code/search_file.c">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/code/tool.c">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/header/card_file.h">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/header/card_service.h">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/header/list.h">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/header/login_log.h">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/header/login_log_file.h">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/header/main.h">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/header/menu.h">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/header/other_log.h">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/header/other_log_file.h">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/header/search_file.h">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/header/tool.h">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="D:/Clion Complier/Asm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
