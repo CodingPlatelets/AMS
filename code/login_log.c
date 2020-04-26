@@ -14,9 +14,9 @@ void initLoginLog() {
 
     while ( !feof(fp)) {
         p->card = ( Card * ) malloc(sizeof(Card));
-        if ( fscanf(fp, "%s %s %d %lld %lld %f %lld %d %f %d %d %lld", p->card->aName, p->card->aPwd,
+        if ( fscanf(fp, "%s %s %d %lld %lld %f %lld %d %f %d %d %lld %d", p->card->aName, p->card->aPwd,
                     &(p->card->nStatus), &(p->card->tStart), &(p->card->tEnd), &(p->card->fTotalUse), &(p->card->tLast),
-                    &(p->card->nUseCount), &(p->card->fBalance), &(p->card->nDel), &(p->opt), &(p->time)) == -1 ) {
+                    &(p->card->nUseCount), &(p->card->fBalance), &(p->card->nDel), &(p->opt), &(p->time),&(p->card->isVip)) == -1 ) {
             p->card = NULL;
             p->opt = NULL;
             p->time = NULL;
@@ -42,11 +42,11 @@ void addLogToList(Card *card, int opt, time_t time) {
         p = p->next;
     }
 
-    p->next = insert;
     insert->card = card;
     insert->opt = opt;
     insert->time = time;
     insert->next = NULL;
+    p->next = insert;
     saveLog(insert);
 
 }

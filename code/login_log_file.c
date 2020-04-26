@@ -4,7 +4,7 @@
 void saveLog(login_log *log) {
     FILE *fp;
 
-    if ((fp = fopen("login_log_info.txt", "a")) == NULL) {   //打开文件
+    if ((fp = fopen("D:\\Clion Complier\\Asm\\login_log_info.txt", "a+")) == NULL) {   //打开文件
         printf("File open error.\n");
     }
 
@@ -19,7 +19,8 @@ void saveLog(login_log *log) {
     fprintf(fp, "%f\t", log->card->fBalance);
     fprintf(fp, "%d\t", log->card->nDel);
     fprintf(fp, "%d\t", log->opt);
-    fprintf(fp, "%lld\n", log->time);
+    fprintf(fp, "%lld\t", log->time);
+    fprintf(fp, "%d\n",log->card->isVip);
 
     if ( fclose(fp)) {          //关闭文件
         printf("File close error.\n");
@@ -34,7 +35,7 @@ void updateLog() {
     login_log *p;
     p = headl;
 
-    if ((fp = fopen("login_log_info.txt", "w+")) == NULL) {
+    if ((fp = fopen("D:\\Clion Complier\\Asm\\login_log_info.txt", "w+")) == NULL) {
         printf("File open error.\n");
     }
 

@@ -21,17 +21,17 @@ void initOptLog() {
 
     while ( !feof(fp)) {
         p->card = ( Card * ) malloc(sizeof(Card));
-        if ( fscanf(fp, "%s %s %d %lld %lld %f %lld %d %f %d %d %d %d %d %lld", p->card->aName, p->card->aPwd,
+        if ( fscanf(fp, "%s %s %d %lld %lld %f %lld %d %f %d %d %d %d %d %lld %d", p->card->aName, p->card->aPwd,
                     &(p->card->nStatus), &(p->card->tStart), &(p->card->tEnd), &(p->card->fTotalUse), &(p->card->tLast),
                     &(p->pre_money),
                     &(p->card->nUseCount), &(p->card->fBalance), &(p->card->nDel), &(p->opt), &(p->money),
-                    &(p->after_money), &(p->time)) == -1 ) {
+                    &(p->after_money), &(p->time), &(p->card->isVip)) == -1 ) {
             p->card = NULL;
-            p->opt = NULL;
-            p->money = NULL;
-            p->pre_money = NULL;
-            p->after_money = NULL;
-            p->time = NULL;
+            p->opt = 0;
+            p->money = 0;
+            p->pre_money = 0;
+            p->after_money = 0;
+            p->time = 0;
             break;
         }
         p->next = ( other_log * ) malloc(sizeof(other_log));   //为p的next申请内存地址
@@ -49,12 +49,6 @@ void addOptLogToList(Card *card, int opt, time_t time, int money, int pre_money,
     other_log *insert;
     other_log *p = heado;
     insert = ( other_log * ) malloc(sizeof(other_log));
-
-    while ( p->next != NULL && p->next->card != NULL) {       //找到原链表的末尾
-        p = p->next;
-    }
-
-    p->next = insert;            //将原链表的尾节点指向要插入的节点
     insert->card = card;
     insert->opt = opt;
     insert->money = money;
@@ -62,7 +56,11 @@ void addOptLogToList(Card *card, int opt, time_t time, int money, int pre_money,
     insert->after_money = after_money;
     insert->time = time;
     insert->next = NULL;
-    //saveOptLog(insert);
+    while ( p->next != NULL && p->next->card != NULL) {       //找到原链表的末尾
+        p = p->next;
+    }
+    p->next = insert;            //将原链表的尾节点指向要插入的节点
+    saveOptLog(insert);
 
 }
 

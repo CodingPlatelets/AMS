@@ -13,6 +13,7 @@
 #define true 1
 #define false 0
 #define price 1
+#define VIP_price 0.5
 
 typedef struct Card {
     char aName[18];         //卡号
@@ -25,6 +26,8 @@ typedef struct Card {
     int nUseCount;          //使用次数
     float fBalance;         //余额
     int nDel;               //删除标识 0-未删除，1-删除
+    int isVip               //是否为vip用户
+
 } Card;
 
 typedef struct Node {
@@ -41,7 +44,7 @@ typedef struct login_log {
 
 typedef struct other_log {
     Card *card;
-    int opt;               // opt-0:注销卡 1:充值 2:退费
+    int opt;               // opt ==0:注销卡 1:充值 2:退费
     int money;             // 当opt==1 or 2时：操作所涉及的金额 ；opt==0:money=0
     int pre_money;         // 当opt==1 or 2时：操作前的金额 ；opt==0:pre_money=0
     int after_money;       // 当opt==1 or 2时：操作后的金额 ；opt==0:after_money=0

@@ -4,7 +4,7 @@ project(Asm C)
 set(CMAKE_C_STANDARD 11)
 #set(CMAKE_BUILD_TYPE Debug)
 include_directories(.)
-
+set(DCMAKE_SH="CMAKE_SH-NOTFOUND")
 add_executable(Asm
         code/card_file.c
         header/card_file.h

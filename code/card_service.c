@@ -18,9 +18,9 @@ void initCardList() {
     p->data = NULL;
     while ( !feof(fp)) {
         p->data = ( Card * ) malloc(sizeof(Card));
-        if ( fscanf(fp, "%s %s %d %lld %lld %f %lld %d %f %d", p->data->aName, p->data->aPwd,
+        if ( fscanf(fp, "%s %s %d %lld %lld %f %lld %d %f %d %d", p->data->aName, p->data->aPwd,
                     &(p->data->nStatus), &(p->data->tStart), &(p->data->tEnd), &(p->data->fTotalUse), &(p->data->tLast),
-                    &(p->data->nUseCount), &(p->data->fBalance), &(p->data->nDel)) == -1 ) {
+                    &(p->data->nUseCount), &(p->data->fBalance), &(p->data->nDel), &(p->data->isVip)) == -1 ) {
             p->data = NULL;
             break;
         }

@@ -15,15 +15,15 @@ The C compiler identification is GNU, found in "D:/Clion Complier/Asm/cmake-buil
 Determining if the C compiler works passed with the following output:
 Change Dir: D:/Clion Complier/Asm/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Min GW w64/mingw64/bin/mingw32-make.exe cmTC_eeb54/fast && D:/Min GW w64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_eeb54.dir\build.make CMakeFiles/cmTC_eeb54.dir/build
+Run Build Command(s):D:/Min GW w64/mingw64/bin/mingw32-make.exe cmTC_9b9dc/fast && D:/Min GW w64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_9b9dc.dir\build.make CMakeFiles/cmTC_9b9dc.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Clion Complier/Asm/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eeb54.dir/testCCompiler.c.obj
-"D:\Min GW w64\mingw64\bin\gcc.exe"    -o CMakeFiles\cmTC_eeb54.dir\testCCompiler.c.obj   -c "D:\Clion Complier\Asm\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
-Linking C executable cmTC_eeb54.exe
-D:\JetBrain\apps\CLion\ch-0\201.6668.10\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_eeb54.dir\link.txt --verbose=1
-D:\JetBrain\apps\CLion\ch-0\201.6668.10\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_eeb54.dir/objects.a
-"D:\Min GW w64\mingw64\bin\ar.exe" cr CMakeFiles\cmTC_eeb54.dir/objects.a @CMakeFiles\cmTC_eeb54.dir\objects1.rsp
-"D:\Min GW w64\mingw64\bin\gcc.exe"      -Wl,--whole-archive CMakeFiles\cmTC_eeb54.dir/objects.a -Wl,--no-whole-archive  -o cmTC_eeb54.exe -Wl,--out-implib,libcmTC_eeb54.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_eeb54.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_9b9dc.dir/testCCompiler.c.obj
+"D:\Min GW w64\mingw64\bin\gcc.exe"    -o CMakeFiles\cmTC_9b9dc.dir\testCCompiler.c.obj   -c "D:\Clion Complier\Asm\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTC_9b9dc.exe
+D:\JetBrain\apps\CLion\ch-0\201.6668.126\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_9b9dc.dir\link.txt --verbose=1
+D:\JetBrain\apps\CLion\ch-0\201.6668.126\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_9b9dc.dir/objects.a
+"D:\Min GW w64\mingw64\bin\ar.exe" cr CMakeFiles\cmTC_9b9dc.dir/objects.a @CMakeFiles\cmTC_9b9dc.dir\objects1.rsp
+"D:\Min GW w64\mingw64\bin\gcc.exe"      -Wl,--whole-archive CMakeFiles\cmTC_9b9dc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9b9dc.exe -Wl,--out-implib,libcmTC_9b9dc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9b9dc.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Clion Complier/Asm/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -31,18 +31,18 @@ mingw32-make.exe[1]: Leaving directory 'D:/Clion Complier/Asm/cmake-build-debug/
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/Clion Complier/Asm/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Min GW w64/mingw64/bin/mingw32-make.exe cmTC_edb33/fast && D:/Min GW w64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_edb33.dir\build.make CMakeFiles/cmTC_edb33.dir/build
+Run Build Command(s):D:/Min GW w64/mingw64/bin/mingw32-make.exe cmTC_fe335/fast && D:/Min GW w64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_fe335.dir\build.make CMakeFiles/cmTC_fe335.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Clion Complier/Asm/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_edb33.dir/CMakeCCompilerABI.c.obj
-"D:\Min GW w64\mingw64\bin\gcc.exe"   -v -o CMakeFiles\cmTC_edb33.dir\CMakeCCompilerABI.c.obj   -c D:\JetBrain\apps\CLion\ch-0\201.6668.10\bin\cmake\win\share\cmake-3.16\Modules\CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_fe335.dir/CMakeCCompilerABI.c.obj
+"D:\Min GW w64\mingw64\bin\gcc.exe"   -v -o CMakeFiles\cmTC_fe335.dir\CMakeCCompilerABI.c.obj   -c D:\JetBrain\apps\CLion\ch-0\201.6668.126\bin\cmake\win\share\cmake-3.16\Modules\CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=D:\Min GW w64\mingw64\bin\gcc.exe
 Target: x86_64-w64-mingw32
 Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
 Thread model: posix
 gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edb33.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
- D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT D:\JetBrain\apps\CLion\ch-0\201.6668.10\bin\cmake\win\share\cmake-3.16\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\cmTC_edb33.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\12451\AppData\Local\Temp\ccwZRERi.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_fe335.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+ D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT D:\JetBrain\apps\CLion\ch-0\201.6668.126\bin\cmake\win\share\cmake-3.16\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\cmTC_fe335.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\12451\AppData\Local\Temp\ccCG3XDs.s
 GNU C17 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
 
@@ -63,17 +63,17 @@ GNU C17 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_6
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 985ce7ae6dd3a696cd146ca9896b0035
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edb33.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
- D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_edb33.dir\CMakeCCompilerABI.c.obj C:\Users\12451\AppData\Local\Temp\ccwZRERi.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_fe335.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+ D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_fe335.dir\CMakeCCompilerABI.c.obj C:\Users\12451\AppData\Local\Temp\ccCG3XDs.s
 GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
 COMPILER_PATH=D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;D:/Min GW w64/mingw64/bin/../libexec/gcc/;D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;D:/Min GW w64/mingw64/bin/../lib/gcc/;D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edb33.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
-Linking C executable cmTC_edb33.exe
-D:\JetBrain\apps\CLion\ch-0\201.6668.10\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_edb33.dir\link.txt --verbose=1
-D:\JetBrain\apps\CLion\ch-0\201.6668.10\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_edb33.dir/objects.a
-"D:\Min GW w64\mingw64\bin\ar.exe" cr CMakeFiles\cmTC_edb33.dir/objects.a @CMakeFiles\cmTC_edb33.dir\objects1.rsp
-"D:\Min GW w64\mingw64\bin\gcc.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_edb33.dir/objects.a -Wl,--no-whole-archive  -o cmTC_edb33.exe -Wl,--out-implib,libcmTC_edb33.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_fe335.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+Linking C executable cmTC_fe335.exe
+D:\JetBrain\apps\CLion\ch-0\201.6668.126\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_fe335.dir\link.txt --verbose=1
+D:\JetBrain\apps\CLion\ch-0\201.6668.126\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_fe335.dir/objects.a
+"D:\Min GW w64\mingw64\bin\ar.exe" cr CMakeFiles\cmTC_fe335.dir/objects.a @CMakeFiles\cmTC_fe335.dir\objects1.rsp
+"D:\Min GW w64\mingw64\bin\gcc.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_fe335.dir/objects.a -Wl,--no-whole-archive  -o cmTC_fe335.exe -Wl,--out-implib,libcmTC_fe335.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=D:\Min GW w64\mingw64\bin\gcc.exe
 COLLECT_LTO_WRAPPER=D:/Min\ GW\ w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe
@@ -83,9 +83,9 @@ Thread model: posix
 gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
 COMPILER_PATH=D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;D:/Min GW w64/mingw64/bin/../libexec/gcc/;D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;D:/Min GW w64/mingw64/bin/../lib/gcc/;D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edb33.exe' '-mtune=core2' '-march=nocona'
- D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\12451\AppData\Local\Temp\ccgZ493F.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_edb33.exe D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/Min GW w64/mingw64/bin/../lib/gcc -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_edb33.dir/objects.a --no-whole-archive --out-implib libcmTC_edb33.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edb33.exe' '-mtune=core2' '-march=nocona'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe335.exe' '-mtune=core2' '-march=nocona'
+ D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\12451\AppData\Local\Temp\ccGAfKAL.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_fe335.exe D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/Min GW w64/mingw64/bin/../lib/gcc -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_fe335.dir/objects.a --no-whole-archive --out-implib libcmTC_fe335.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe335.exe' '-mtune=core2' '-march=nocona'
 mingw32-make.exe[1]: Leaving directory 'D:/Clion Complier/Asm/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -107,18 +107,18 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: D:/Clion Complier/Asm/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/Min GW w64/mingw64/bin/mingw32-make.exe cmTC_edb33/fast && D:/Min GW w64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_edb33.dir\build.make CMakeFiles/cmTC_edb33.dir/build]
+  ignore line: [Run Build Command(s):D:/Min GW w64/mingw64/bin/mingw32-make.exe cmTC_fe335/fast && D:/Min GW w64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_fe335.dir\build.make CMakeFiles/cmTC_fe335.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Clion Complier/Asm/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_edb33.dir/CMakeCCompilerABI.c.obj]
-  ignore line: ["D:\Min GW w64\mingw64\bin\gcc.exe"   -v -o CMakeFiles\cmTC_edb33.dir\CMakeCCompilerABI.c.obj   -c D:\JetBrain\apps\CLion\ch-0\201.6668.10\bin\cmake\win\share\cmake-3.16\Modules\CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_fe335.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["D:\Min GW w64\mingw64\bin\gcc.exe"   -v -o CMakeFiles\cmTC_fe335.dir\CMakeCCompilerABI.c.obj   -c D:\JetBrain\apps\CLion\ch-0\201.6668.126\bin\cmake\win\share\cmake-3.16\Modules\CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Min GW w64\mingw64\bin\gcc.exe]
   ignore line: [Target: x86_64-w64-mingw32]
   ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib ']
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.1.0 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edb33.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
-  ignore line: [ D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT D:\JetBrain\apps\CLion\ch-0\201.6668.10\bin\cmake\win\share\cmake-3.16\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\cmTC_edb33.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\12451\AppData\Local\Temp\ccwZRERi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_fe335.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+  ignore line: [ D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT D:\JetBrain\apps\CLion\ch-0\201.6668.126\bin\cmake\win\share\cmake-3.16\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\cmTC_fe335.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\12451\AppData\Local\Temp\ccCG3XDs.s]
   ignore line: [GNU C17 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
   ignore line: []
@@ -139,8 +139,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 985ce7ae6dd3a696cd146ca9896b0035]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edb33.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
-  ignore line: [ D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_edb33.dir\CMakeCCompilerABI.c.obj C:\Users\12451\AppData\Local\Temp\ccwZRERi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_fe335.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+  ignore line: [ D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_fe335.dir\CMakeCCompilerABI.c.obj C:\Users\12451\AppData\Local\Temp\ccCG3XDs.s]
   ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
   ignore line: [COMPILER_PATH=D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/]
   ignore line: [D:/Min GW w64/mingw64/bin/../libexec/gcc/]
@@ -151,12 +151,12 @@ Parsed C implicit link information from above output:
   ignore line: [D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
   ignore line: [D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edb33.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
-  ignore line: [Linking C executable cmTC_edb33.exe]
-  ignore line: [D:\JetBrain\apps\CLion\ch-0\201.6668.10\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_edb33.dir\link.txt --verbose=1]
-  ignore line: [D:\JetBrain\apps\CLion\ch-0\201.6668.10\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_edb33.dir/objects.a]
-  ignore line: ["D:\Min GW w64\mingw64\bin\ar.exe" cr CMakeFiles\cmTC_edb33.dir/objects.a @CMakeFiles\cmTC_edb33.dir\objects1.rsp]
-  ignore line: ["D:\Min GW w64\mingw64\bin\gcc.exe"     -v -Wl --whole-archive CMakeFiles\cmTC_edb33.dir/objects.a -Wl --no-whole-archive  -o cmTC_edb33.exe -Wl --out-implib libcmTC_edb33.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_fe335.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+  ignore line: [Linking C executable cmTC_fe335.exe]
+  ignore line: [D:\JetBrain\apps\CLion\ch-0\201.6668.126\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_fe335.dir\link.txt --verbose=1]
+  ignore line: [D:\JetBrain\apps\CLion\ch-0\201.6668.126\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_fe335.dir/objects.a]
+  ignore line: ["D:\Min GW w64\mingw64\bin\ar.exe" cr CMakeFiles\cmTC_fe335.dir/objects.a @CMakeFiles\cmTC_fe335.dir\objects1.rsp]
+  ignore line: ["D:\Min GW w64\mingw64\bin\gcc.exe"     -v -Wl --whole-archive CMakeFiles\cmTC_fe335.dir/objects.a -Wl --no-whole-archive  -o cmTC_fe335.exe -Wl --out-implib libcmTC_fe335.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Min GW w64\mingw64\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=D:/Min\ GW\ w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe]
@@ -173,9 +173,9 @@ Parsed C implicit link information from above output:
   ignore line: [D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
   ignore line: [D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edb33.exe' '-mtune=core2' '-march=nocona']
-  ignore line: [ D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\12451\AppData\Local\Temp\ccgZ493F.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_edb33.exe D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/Min GW w64/mingw64/bin/../lib/gcc -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_edb33.dir/objects.a --no-whole-archive --out-implib libcmTC_edb33.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edb33.exe' '-mtune=core2' '-march=nocona']
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe335.exe' '-mtune=core2' '-march=nocona']
+  ignore line: [ D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/Min GW w64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\12451\AppData\Local\Temp\ccGAfKAL.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_fe335.exe D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/Min GW w64/mingw64/bin/../lib/gcc -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_fe335.dir/objects.a --no-whole-archive --out-implib libcmTC_fe335.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/Min GW w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe335.exe' '-mtune=core2' '-march=nocona']
   ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/Clion Complier/Asm/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []

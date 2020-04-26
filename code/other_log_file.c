@@ -24,7 +24,8 @@ void saveOptLog(other_log *log) {
     fprintf(fp, "%d\t", log->money);
     fprintf(fp, "%d\t", log->pre_money);
     fprintf(fp, "%d\t", log->after_money);
-    fprintf(fp, "%lld\n", log->time);
+    fprintf(fp, "%lld\t", log->time);
+    fprintf(fp, "%d\n",log->card->isVip);
 
     if ( fclose(fp)) {          //╧ь╠унд╪Ч
         printf("File close error.\n");

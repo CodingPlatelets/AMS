@@ -38,7 +38,7 @@ int deleNode(char *aName, Node *head) {
 //打印所有数据
 void printAll(const Node *head) {
     printf("查询到的信息如下：\n");
-    printf("卡号\t状态\t  余额\t\t累计使用\t 使用次数\t上次使用时间\n");
+    printf("卡号\t状态\t  余额\t\t累计使用\t 使用次数\t上次使用时间\tVIP\n");
     // printf("卡号\t状态\t余额\t累计使用\t使用次数\t上次使用时间\n");
     Node *p = head;
 
@@ -49,9 +49,9 @@ void printAll(const Node *head) {
         // printf("%s\t%d\t%.3f\t %.3f\t\t%d\t%d-%d-%d %d:%d\n", p->data->aName, p->data->nStatus, p->data->fBalance,
         //        p->data->fTotalUse,
         //        p->data->nUseCount, 1900 + t->tm_year, 1 + t->tm_mon, t->tm_mday, t->tm_hour, t->tm_min);
-        printf("%s\t%-1d\t%.3f   \t%.3f\t\t%d\t%d-%d-%d %d:%d\n", p->data->aName, p->data->nStatus, p->data->fBalance,
+        printf("%s\t%-1d\t%.3f   \t%.3f\t\t%d\t%d-%d-%d %d:%d\t%d\n", p->data->aName, p->data->nStatus, p->data->fBalance,
                p->data->fTotalUse,
-               p->data->nUseCount, 1900 + t->tm_year, 1 + t->tm_mon, t->tm_mday, t->tm_hour, t->tm_min);
+               p->data->nUseCount, 1900 + t->tm_year, 1 + t->tm_mon, t->tm_mday, t->tm_hour, t->tm_min,p->data->isVip);
 
         p = p->next;
 

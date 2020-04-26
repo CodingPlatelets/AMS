@@ -84,27 +84,28 @@ void search_user_cost_log() {
 
 //查询总营业额
 void search_total_input() {
-    int start_year, start_month, start_day;
-    int end_year, end_month, end_day;
+    // int start_year, start_month, start_day;
+    // int end_year, end_month, end_day;
     other_log *t;
     struct tm *time;
     int money = 0;
 
     t = heado;
 
-    printf("请输入起始时间（格式为xxxx:xx:xx）:");
-    scanf("%d:%d:%d", &start_year, &start_month, &start_day);
-    printf("请输入结束时间（格式为xxxx:xx:xx）:");
-    scanf("%d:%d:%d", &end_year, &end_month, &end_day);
-    while ( t != NULL) {
-        time = gmtime(&(t->time));
-        if ((start_year <= (1900 + time->tm_year)) && (start_month <= (1 + time->tm_mon)) &&
-            (start_day <= time->tm_mday)
-            && (end_year >= (1900 + time->tm_year)) && (end_month >= (time->tm_mon + 1)) &&
-            (end_day >= time->tm_mday)) {
+    // printf("请输入起始时间（格式为xxxx:xx:xx）:");
+    // scanf("%4d:%2d:%2d", &start_year, &start_month, &start_day);
+    // printf("请输入结束时间（格式为xxxx:xx:xx）:");
+    // scanf("%4d:%2d:%2d", &end_year, &end_month, &end_day);
+    while (t) {
+        // time = gmtime(&(t->time));
+        // if ((start_year <= (1900 + time->tm_year)) && (start_month <= (1 + time->tm_mon)) &&
+        //     (start_day <= time->tm_mday)
+        //     && (end_year >= (1900 + time->tm_year)) && (end_month >= (time->tm_mon + 1)) &&
+        //     (end_day >= time->tm_mday)) {
             money = money + (t->money);
-        }
-        t = t->next;
+            t = t->next;
+        // }
+
     }
     printf("总营业额为：%d元.\n", money);
 }

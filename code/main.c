@@ -54,6 +54,9 @@ int main() {
             case 'r':
                 reset();
                 break;
+            case 'v':
+                addVip();
+                break;
             case '0':
                 updateSaveAll();
                 updateLog();
@@ -69,6 +72,7 @@ int main() {
     //更新文件中的数据
     updateSaveAll();
     updateOptLog();
+    updateLog();
 
     return 0;
 }	

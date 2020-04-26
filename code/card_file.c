@@ -10,16 +10,17 @@ int saveCard(char *aName, char *aPwd, float fBalance, struct tm endtm) {
         return 0;
     }
 
-    fprintf(fp, "%s\t", aName);               //卡号
-    fprintf(fp, "%s\t", aPwd);               //密码
-    fprintf(fp, "%d\t", 0);                  //卡状态
-    fprintf(fp, "%lld\t", time(NULL));       //开卡时间
-    fprintf(fp, "%lld\t", mktime(&endtm));   //截至时间
-    fprintf(fp, "%f\t", 0.0);              //累计金额
-    fprintf(fp, "%lld\t", time(NULL));      //最后使用时间
-    fprintf(fp, "%d\t", 0);                //使用次数
-    fprintf(fp, "%f\t", fBalance);        //余额
-    fprintf(fp, "%d\n", 0);               //删除标识
+    fprintf(fp, "%s\t", aName);                 //卡号
+    fprintf(fp, "%s\t", aPwd);                  //密码
+    fprintf(fp, "%d\t", 0);                     //卡状态
+    fprintf(fp, "%lld\t", time(NULL));    //开卡时间
+    fprintf(fp, "%lld\t", mktime(&endtm));      //截至时间
+    fprintf(fp, "%f\t", 0.0);                   //累计金额
+    fprintf(fp, "%lld\t", time(NULL));    //最后使用时间
+    fprintf(fp, "%d\t", 0);                     //使用次数
+    fprintf(fp, "%f\t", fBalance);              //余额
+    fprintf(fp, "%d\t", 0);                     //删除标识
+    fprintf(fp,"%d\n",0);                       //vip标识
 
     if ( fclose(fp)) {                    //关闭文件
         printf("Can not close the file!\n");
@@ -46,7 +47,8 @@ void updateSave(Card *data) {
     fprintf(fp, "%lld\t", data->tLast);             //最后使用时间
     fprintf(fp, "%d\t", data->nUseCount);           //使用次数
     fprintf(fp, "%f\t", data->fBalance);            //余额
-    fprintf(fp, "%d\n", data->nDel);                //删除标识
+    fprintf(fp, "%d\t", data->nDel);                //删除标识
+    fprintf(fp,"%d\n",data->isVip);                 //VIP
 
     if ( fclose(fp)) {                                     //关闭文件
         printf("Can not close the file!\n");

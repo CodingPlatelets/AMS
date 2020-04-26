@@ -24,3 +24,5 @@ void changePwd();
 
 void reset();
 
+void addVip();
+
