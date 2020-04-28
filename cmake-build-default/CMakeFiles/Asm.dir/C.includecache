@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+../header/card_file.h
+main.h
+../header/main.h
+
+../header/card_service.h
+header/main.h
+../header/header/main.h
+
+../header/list.h
+main.h
+../header/main.h
+
+../header/login_log.h
+time.h
+-
+main.h
+../header/main.h
+
 ../header/main.h
 math.h
 -
@@ -18,19 +36,37 @@ time.h
 string.h
 -
 
+../header/menu.h
+
 ../header/other_log.h
 time.h
 -
 main.h
 ../header/main.h
 
-../header/other_log_file.h
-main.h
-../header/main.h
+../header/search_file.h
 
-D:/Clion Complier/Asm/code/other_log.c
+D:/Clion Complier/Asm/code/menu.c
+header/menu.h
+D:/Clion Complier/Asm/code/header/menu.h
+header/main.h
+D:/Clion Complier/Asm/code/header/main.h
+header/card_service.h
+D:/Clion Complier/Asm/code/header/card_service.h
+header/card_file.h
+D:/Clion Complier/Asm/code/header/card_file.h
+header/list.h
+D:/Clion Complier/Asm/code/header/list.h
 header/other_log.h
 D:/Clion Complier/Asm/code/header/other_log.h
-header/other_log_file.h
-D:/Clion Complier/Asm/code/header/other_log_file.h
+header/login_log.h
+D:/Clion Complier/Asm/code/header/login_log.h
+header/search_file.h
+D:/Clion Complier/Asm/code/header/search_file.h
+string.h
+-
+stdlib.h
+-
+time.h
+-
 
