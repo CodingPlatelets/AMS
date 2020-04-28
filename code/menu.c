@@ -108,9 +108,9 @@ void addCard() {
         p->isVip = 0;
         addToList(p, head);             //将新卡信息，添加到链表中
         addOptLogToList(p, 1, time(NULL), rmb, 0, p->fBalance, heado);//添加到充值链表中
-        if ((i = saveCard(name, pwd, rmb, endtm)) == 1 ) {
+        // if ((i = saveCard(name, pwd, rmb, endtm)) == 1 ) {
             printf("添加开卡信息成功！\n");
-        }
+        // }
 
     }
 
@@ -212,8 +212,8 @@ void exitComputer() {
                         p->nStatus = 0;              //修改卡的状态为未上机
                         printf("下机成功！\n");
                         addLogToList(p, 1, time(NULL));
-                        addOptLogToList(p, 2, time(NULL), -money, p->fBalance + money,
-                                p->fBalance, heado);
+                        // addOptLogToList(p, 2, time(NULL), money, p->fBalance + money,
+                        //         p->fBalance, heado);
                         break;
                     } else {
                         printf("余额不足，请充值%.2lf元。\n", money - (p->fBalance));
@@ -472,7 +472,7 @@ void addVip(){
                     queryCard(name)->fTotalUse += 100;
                     queryCard(name)->isVip = 1;
                     printf("您目前的余额为：%.2f\n", queryCard(name)->fBalance);
-                    addOptLogToList(queryCard(name), 2, time(NULL), 100,
+                    addOptLogToList(queryCard(name), 1, time(NULL), 100,
                             queryCard(name)->fBalance + 100, queryCard(name)->fBalance + 200, heado);
                 }else{
                     printf("余额不足，请充值！\n");

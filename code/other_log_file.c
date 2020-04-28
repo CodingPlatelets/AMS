@@ -10,21 +10,21 @@ void saveOptLog(other_log *log) {
         printf("File open error.\n");
     }
 
-    fprintf(fp, "%s\t", log->card->aName);
-    fprintf(fp, "%s\t", log->card->aPwd);
-    fprintf(fp, "%d\t", log->card->nStatus);
-    fprintf(fp, "%lld\t", log->card->tStart);
-    fprintf(fp, "%lld\t", log->card->tEnd);
-    fprintf(fp, "%f\t", log->card->fTotalUse);
-    fprintf(fp, "%lld\t", log->card->tLast);
-    fprintf(fp, "%d\t", log->card->nUseCount);
-    fprintf(fp, "%f\t", log->card->fBalance);
-    fprintf(fp, "%d\t", log->card->nDel);
-    fprintf(fp, "%d\t", log->opt);
-    fprintf(fp, "%d\t", log->money);
-    fprintf(fp, "%d\t", log->pre_money);
-    fprintf(fp, "%d\t", log->after_money);
-    fprintf(fp, "%lld\t", log->time);
+    fprintf(fp, "%s\t\t", log->card->aName);
+    fprintf(fp, "%s\t\t", log->card->aPwd);
+    fprintf(fp, "%d\t\t", log->card->nStatus);
+    fprintf(fp, "%lld\t\t", log->card->tStart);
+    fprintf(fp, "%lld\t\t", log->card->tEnd);
+    fprintf(fp, "%.2f\t\t", log->card->fTotalUse);
+    fprintf(fp, "%lld\t\t", log->card->tLast);
+    fprintf(fp, "%d\t\t", log->card->nUseCount);
+    fprintf(fp, "%.2f\t\t", log->card->fBalance);
+    fprintf(fp, "%d\t\t", log->card->nDel);
+    fprintf(fp, "%d\t\t", log->opt);
+    fprintf(fp, "%.2f\t\t", log->money);
+    fprintf(fp, "%.2f\t\t", log->pre_money);
+    fprintf(fp, "%.2f\t\t", log->after_money);
+    fprintf(fp, "%lld\t\t", log->time);
     fprintf(fp, "%d\n",log->card->isVip);
 
     if ( fclose(fp)) {          //╧ь╠унд╪Ч

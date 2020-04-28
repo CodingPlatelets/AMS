@@ -5,9 +5,7 @@
 //加入链表
 void addToList(Card *a, Node *head) {
     Node *p = head;
-    Node *insert;
-
-    insert = ( Node * ) malloc(sizeof(Node));
+    Node *insert = ( Node * ) malloc(sizeof(Node));
 
     //找到原链表的最后一个结点
     while ( p->next != NULL && p->next->data != NULL) {
@@ -17,6 +15,8 @@ void addToList(Card *a, Node *head) {
     p->next = insert;
     insert->data = a;
     insert->next = NULL;
+    // p->next->data = a;
+    // p->next->next = NULL;
 
 }
 
@@ -49,7 +49,7 @@ void printAll(const Node *head) {
         // printf("%s\t%d\t%.3f\t %.3f\t\t%d\t%d-%d-%d %d:%d\n", p->data->aName, p->data->nStatus, p->data->fBalance,
         //        p->data->fTotalUse,
         //        p->data->nUseCount, 1900 + t->tm_year, 1 + t->tm_mon, t->tm_mday, t->tm_hour, t->tm_min);
-        printf("%s\t%-1d\t%.3f   \t%.3f\t\t%d\t%d-%d-%d %d:%d\t%d\n", p->data->aName, p->data->nStatus, p->data->fBalance,
+        printf("%s\t%-1d\t%.3f   \t%.3f\t\t%d\t%d-%d-%d %d:%d\t  %d\n", p->data->aName, p->data->nStatus, p->data->fBalance,
                p->data->fTotalUse,
                p->data->nUseCount, 1900 + t->tm_year, 1 + t->tm_mon, t->tm_mday, t->tm_hour, t->tm_min,p->data->isVip);
 

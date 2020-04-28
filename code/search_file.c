@@ -24,7 +24,7 @@ void search_user_total() {
             printf("消费时间\t消费金额\t消费类型\n");
             while ( t != NULL) {
                 time = gmtime(&(t->time));
-                printf("%d-%d-%d %d:%d\t%d\t%d\n", 1900 + time->tm_year, 1 + time->tm_mon, time->tm_mday,
+                printf("%d-%d-%d %d:%d\t%.2f\t\t%d\n", 1900 + time->tm_year, 1 + time->tm_mon, time->tm_mday,
                        time->tm_hour, time->tm_min, t->money, t->opt);
                 t = t->next;
             }
@@ -68,7 +68,7 @@ void search_user_cost_log() {
                     (start_day <= time->tm_mday)
                     && (end_year >= (1900 + time->tm_year)) && (end_month >= (time->tm_mon + 1)) &&
                     (end_day >= time->tm_mday)) {
-                    printf("%d-%d-%d %d:%d\t%d\t%d\n", 1900 + time->tm_year, 1 + time->tm_mon, time->tm_mday,
+                    printf("%d-%d-%d %d:%d\t%.2f\t\t%d\n", 1900 + time->tm_year, 1 + time->tm_mon, time->tm_mday,
                            time->tm_hour, time->tm_min, t->money, t->opt);
                 }
                 t = t->next;
