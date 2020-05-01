@@ -23,7 +23,7 @@ void search_user_total() {
             t = searchOptLog(name);
             printf("消费时间\t消费金额\t消费类型\n");
             while ( t != NULL) {
-                time = gmtime(&(t->time));
+                time = localtime(&(t->time));
                 printf("%d-%d-%d %d:%d\t%.2f\t\t%d\n", 1900 + time->tm_year, 1 + time->tm_mon, time->tm_mday,
                        time->tm_hour, time->tm_min, t->money, t->opt);
                 t = t->next;
@@ -63,7 +63,7 @@ void search_user_cost_log() {
             t = searchOptLog(name);
             printf("消费时间\t消费金额\t消费类型\n");
             while ( t != NULL) {
-                time = gmtime(&(t->time));
+                time = localtime(&(t->time));
                 if ((start_year <= (1900 + time->tm_year)) && (start_month <= (1 + time->tm_mon)) &&
                     (start_day <= time->tm_mday)
                     && (end_year >= (1900 + time->tm_year)) && (end_month >= (time->tm_mon + 1)) &&

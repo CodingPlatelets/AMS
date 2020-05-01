@@ -9,6 +9,7 @@
 
 int main() {
     printf("欢迎使用计费管理系统\n");
+    printf("----管理员模式----\n");
     int co = 0;
     co = code();
     if(co != 1){

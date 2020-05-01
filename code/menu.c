@@ -54,14 +54,14 @@ void outputMenu() {
     printf("7:查询统计\n");
     printf("8:注销\n");
     printf("9:修改卡密码\n");
-    printf("r:重注册\n");
+    printf("r:激活\n");
     printf("v:充值VIP\n");
     printf("0:退出系统\n");
     printf("请选择菜单项编号：");
     // gets(ch);
     scanf("%s",ch);
     while(strlen(ch) >= MAX || !((ch[0] >= '0' && ch[0] <='9') || ch[0] == 'r' || ch[0] == 'v') ){
-        free(ch);
+        free(ch);                                               //如果输入出现问题，先释放空间再重新分配空间
         ch = (char*)malloc(sizeof(char)*MAXCARDNUMBER);
         printf("错误输入！请重新输入: \n");
         // gets(ch);
@@ -424,7 +424,7 @@ void reset(){
     char *pwd = ( char * ) malloc(sizeof(char) * 8);
     // char pwd[8];
     char newPwd[8];
-    printf("----------重注册----------\n");
+    printf("----------激活----------\n");
     printf("请输入卡号<长度为1~18>：");
     scanf("%s", name);
     if(queryCard(name)){
@@ -432,8 +432,8 @@ void reset(){
         printf("请输入新的密码<长度为1~8>： ");
         scanf("%s",newPwd);
         strcpy(queryCard(name)->aPwd, newPwd);
-        printf("重注册卡成功！\n");
-        printf("重注册时间为：");
+        printf("激活卡成功！\n");
+        printf("激活时间为：");
         time_t currentTm = time(NULL);
         puts(asctime(localtime(&currentTm)));
     }else{

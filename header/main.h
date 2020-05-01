@@ -44,7 +44,7 @@ typedef struct login_log {
 
 typedef struct other_log {
     Card *card;
-    int opt;               // opt ==0:注销卡 1:充值 2:退费
+    int opt;                 // opt ==0:注销卡 1:充值 2:退费
     float money;             // 当opt==1 or 2时：操作所涉及的金额 ；opt==0:money=0
     float pre_money;         // 当opt==1 or 2时：操作前的金额 ；opt==0:pre_money=0
     float after_money;       // 当opt==1 or 2时：操作后的金额 ；opt==0:after_money=0

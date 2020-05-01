@@ -24,6 +24,10 @@ time.h
 main.h
 ../header/main.h
 
+../header/login_log_file.h
+main.h
+../header/main.h
+
 ../header/main.h
 math.h
 -
@@ -44,7 +48,27 @@ time.h
 main.h
 ../header/main.h
 
+../header/other_log_file.h
+main.h
+../header/main.h
+
 ../header/search_file.h
+
+D:/Clion Complier/Asm/code/main.c
+header/menu.h
+-
+header/login_log.h
+-
+header/card_service.h
+-
+header/other_log.h
+-
+header/card_file.h
+-
+header/login_log_file.h
+-
+header/other_log_file.h
+-
 
 D:/Clion Complier/Asm/code/menu.c
 header/menu.h

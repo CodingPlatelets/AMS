@@ -45,7 +45,7 @@ void printAll(const Node *head) {
     //遍历以head为首结点的链表，并将其输出
     while ( p != NULL) {
 
-        struct tm *t = gmtime(&(p->data->tLast));
+        struct tm *t = localtime(&(p->data->tLast));
         // printf("%s\t%d\t%.3f\t %.3f\t\t%d\t%d-%d-%d %d:%d\n", p->data->aName, p->data->nStatus, p->data->fBalance,
         //        p->data->fTotalUse,
         //        p->data->nUseCount, 1900 + t->tm_year, 1 + t->tm_mon, t->tm_mday, t->tm_hour, t->tm_min);
