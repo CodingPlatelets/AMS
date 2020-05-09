@@ -1,5 +1,7 @@
 #pragma once
 
+// int manger();
+
 int code();
 
 void outputMenu();
